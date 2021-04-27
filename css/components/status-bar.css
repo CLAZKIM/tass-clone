@@ -1,0 +1,16 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: 0;
+}
+
+.status-bar__notice-icons > *,
+.status-bar__status-icons > * {
+  opacity: 0.6;
+  padding: 0 2px;
+}
