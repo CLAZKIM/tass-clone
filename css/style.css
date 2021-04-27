@@ -1,8 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
 /* Components */
-@import url("components/rest.css");
 @import url("components/status-bar.css");
 @import url("components/screen-header.css");
 
+/* Screen */
+@import url("screen/login.css");
+
+@import url("rest.css");
+@import url("variables.css");
+
 body {
-  height: 1000vh;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.main-screen {
+  margin: 0 var(--horizontal-space);
+}
+
+select {
+  -webkit-appearance: none; /* for chrome/safari */
+  -moz-appearance: none; /* for firefox */
+  appearance: none;
+}
+
+select::-ms-backdrop {
+  display: none; /* for IE10, 11 */
 }

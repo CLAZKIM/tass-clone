@@ -1,0 +1,72 @@
+.login-screen {
+  padding-top: 145px;
+}
+
+.login-title {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#login-form label {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  opacity: 0.7;
+}
+
+#login-form label:first-child {
+  padding-top: 0px;
+}
+
+#login-form label[for="resident-number__front"] {
+  padding-bottom: 10px;
+}
+
+#login-form input,
+#login-form select {
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+  font-size: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input:focus,
+#login-form select:focus {
+  border-color: var(--tass-blue);
+}
+
+#login-form input[type="submit"] {
+  margin-top: 30px;
+  border-bottom: none;
+  padding: 20px 0;
+  font-size: 20px;
+  background-color: var(--tass-blue);
+  color: white;
+  border-radius: 5px;
+}
+
+#phone-company {
+  position: relative;
+}
+
+#phone-company i {
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+#phone-company select {
+  width: 100%;
+}
+
+#resident-number span {
+  font-size: 35px;
+  opacity: 0.5;
+}

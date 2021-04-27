@@ -28,6 +28,47 @@
       <div class="screen-header__column"></div>
       <div class="screen-header__column"></div>
     </div>
+    <main class="main-screen login-screen">
+      <h1 class="login-title">
+        입력한 정보가 맞다면<br />
+        아래 확인 버튼을 눌러주세요.
+      </h1>
+      <form action="home.html" method="get" id="login-form">
+        <label for="phone-number">휴대폰 번호</label>
+        <input name="phone-number" id="phone-number" type="tel" />
+        <label for="phone-companys">통신사</label>
+        <div id="phone-company">
+          <select name="phone-companys" id="phone-companys">
+            <option value=""></option>
+            <option value="KT">KT</option>
+            <option value="SKT">SKT</option>
+            <option value="LG">LG U+</option>
+            <option value="etc">알뜰폰</option>
+          </select>
+          <i class="fas fa-chevron-down fa-lg"></i>
+        </div>
+        <label for="resident-number__front">주민등록번호</label>
+        <div id="resident-number">
+          <input
+            name="resident-number__front"
+            id="resident-number__front"
+            type="text"
+            maxlength="6"
+          />
+          <span>-</span>
+          <input
+            name="resident-number__back"
+            id="resident-number__back"
+            type="text"
+            maxlength="1"
+            size="1"
+          />
+        </div>
+        <label for="name">이름</label>
+        <input name="name" id="name" type="text" />
+        <input type="submit" value="확인" />
+      </from>
+    </main>
     <script
       src="https://kit.fontawesome.com/79ccf6d19d.js"
       crossorigin="anonymous"
