@@ -1,11 +1,11 @@
 .screen-header {
-  margin-top: 65px;
+  margin-top: 60px;
   position: fixed;
   z-index: 1;
   display: flex;
   justify-content: center;
+  padding: 0 var(--horizontal-space);
   width: 100%;
-  padding: 0 25px;
   box-sizing: border-box;
 }
 
@@ -23,4 +23,10 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.screen-header__column:last-child i {
+  font-size: 25px;
+  padding-left: 35px;
+  color: rgba(0, 0, 0, 0.4);
 }

@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.nav__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  opacity: 0.3;
+}
+
+.nav__btn--here {
+  opacity: 0.8;
+}
+
+.nav__btn i {
+  font-size: 25px;
+  padding-bottom: 5px;
+}

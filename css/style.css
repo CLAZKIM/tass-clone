@@ -3,9 +3,11 @@
 /* Components */
 @import url("components/status-bar.css");
 @import url("components/screen-header.css");
+@import url("components/nav.css");
 
 /* Screen */
 @import url("screen/login.css");
+@import url("screen/home.css");
 
 @import url("rest.css");
 @import url("variables.css");
