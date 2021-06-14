@@ -5,8 +5,9 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  top: 0px;
   background-color: rgba(0, 0, 0, 0.05);
-  z-index: 0;
+  z-index: 2;
 }
 
 .status-bar__notice-icons > *,

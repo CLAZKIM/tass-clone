@@ -4,6 +4,7 @@
 @import url("components/status-bar.css");
 @import url("components/screen-header.css");
 @import url("components/nav.css");
+@import url("components/info-component.css");
 
 /* Screen */
 @import url("screen/login.css");
@@ -28,4 +29,8 @@ select {
 
 select::-ms-backdrop {
   display: none; /* for IE10, 11 */
+}
+
+#screen {
+  height: 200vh;
 }

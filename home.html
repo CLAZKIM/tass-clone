@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>tass login</title>
   </head>
-  <body>
+  <body id="screen">
     <div class="status-bar">
       <div class="status-bar__notice-icons">
         <span>4:53</span>
@@ -45,15 +45,33 @@
         </li>
       </ul>
     </nav>
-    <div class="screen-header">
-      <div class="screen-header__column"></div>
+    <header class="screen-header">
+      <div class="screen-header__column">
+        <span>홈</span>
+      </div>
       <div class="screen-header__column"></div>
       <div class="screen-header__column">
         <i class="fas fa-comment-dots"></i>
         <i class="fas fa-bell"></i>
       </div>
-    </div>
-    <main class="main-screen home-screen"></main>
+    </header>
+    <main class="main-screen home-screen">
+      <div class="profile">
+        <div class="info-component">
+          <img
+            src="https://avatars.githubusercontent.com/u/78400762?s=60&v=4"
+            class="info-component__icon"
+          />
+          <div class="info-component__column">
+            <span>KB나라사랑우대통장</span>
+            <span>90,000원</span>
+          </div>
+          <div class="info-component__column">
+            <button class="info-component__btn" type="button">송금</button>
+          </div>
+        </div>
+      </div>
+    </main>
     <script
       src="https://kit.fontawesome.com/79ccf6d19d.js"
       crossorigin="anonymous"

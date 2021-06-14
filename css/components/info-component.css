@@ -1,0 +1,15 @@
+.info-component {
+  display: flex;
+  align-items: cneter;
+}
+
+.info-component img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.info-component__column {
+  display: flex;
+  flex-direction: column;
+}
